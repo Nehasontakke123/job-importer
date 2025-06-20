@@ -1,0 +1,16 @@
+html, body {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  background-color: #f9fafb;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  box-sizing: border-box;
+}
+
+body > div {
+  height: 100%; /* ✅ This is needed for Next.js App Router structure */
+}
+
+*, *::before, *::after {
+  box-sizing: inherit;
+}
